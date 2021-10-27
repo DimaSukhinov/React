@@ -7,10 +7,11 @@ import AppTitle from "./Components/AppTitle";
 const App = () => {
     return (
         <div className="App">
-            <AppTitle/>
+            {/*<AppTitle/>
+            <Rating value={0}/>*/}
+            <Accordion titleValue={'Menu'} collapsed={false}/>
+            <Accordion titleValue={'Menu 2'} collapsed={true}/>
             <Rating value={0}/>
-            <Accordion titleValue={'Menu'} collapsed={true}/>
-            <Accordion titleValue={'Menu 2'} collapsed={false}/>
             <Rating value={1}/>
             <Rating value={2}/>
             <Rating value={3}/>
