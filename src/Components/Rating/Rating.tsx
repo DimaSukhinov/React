@@ -1,11 +1,11 @@
 import React from 'react';
 import Star from './Star';
 
-type RatingPropType = {
+type RatingPropsType = {
     value: number
 }
 
-const Rating = (props: RatingPropType) => {
+const Rating = (props: RatingPropsType) => {
 
     if (props.value === 1) {
         return (

@@ -1,10 +1,10 @@
 import React from 'react';
 
-type RatingPropsType = {
+type StarPropsType = {
     selected: boolean
 }
 
-const Star = (props: RatingPropsType) => {
+const Star = (props: StarPropsType) => {
 
     if (props.selected === true) {
         return (

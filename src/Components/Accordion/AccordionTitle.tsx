@@ -1,8 +1,12 @@
 import React from 'react';
 
-const AccordionTitle = () => {
+type AccordionTitlePropsType = {
+    title: string
+}
+
+const AccordionTitle = (props: AccordionTitlePropsType) => {
     return (
-            <h3>Меню</h3>
+            <h3>{props.title}</h3>
     );
 };
 
