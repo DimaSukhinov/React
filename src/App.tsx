@@ -3,7 +3,8 @@ import './App.css';
 import Rating from "./Components/Rating/Rating";
 import Accordion from "./Components/Accordion/Accordion";
 import AppTitle from "./Components/AppTitle";
-import { OnOff } from './Components/OnOff/OnOff';
+import OnOff from './Components/OnOff/OnOff';
+/*import { OnOff } from './Components/OnOff/OnOff';*/
 
 const App = () => {
     return (
@@ -18,8 +19,7 @@ const App = () => {
             <Rating value={3}/>
             <Rating value={4}/>
             <Rating value={5}/>*/}
-            <OnOff status={true}/>
-            <OnOff status={false}/>
+            <OnOff />
         </div>
     );
 }
