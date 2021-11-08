@@ -4,7 +4,6 @@ import AccordionBody from './AccordionBody';
 
 type AccordionPropsType = {
     titleValue: string
-    /*collapsed: boolean*/
 }
 
 const UncontrolledAccordion = (props: AccordionPropsType) => {
@@ -14,8 +13,7 @@ const UncontrolledAccordion = (props: AccordionPropsType) => {
     return (
         <div>
             <AccordionTitle title={props.titleValue}/>
-            <button onClick={ () => { setCollapsed(true) } }>Open</button>
-            <button onClick={ () => { setCollapsed(false) } }>Close</button>
+            <button onClick={ () => { setCollapsed(!collapsed) } }>Open</button>
             {collapsed && <AccordionBody/>}             {/*props.collapsed === false*/}
         </div>
     );

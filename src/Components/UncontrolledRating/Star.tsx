@@ -6,7 +6,7 @@ type StarPropsType = {
 
 const Star = (props: StarPropsType) => {
 
-    if (props.selected === true) {
+    if (props.selected) {
         return (
             <span><b>star </b></span>
         )

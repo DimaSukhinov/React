@@ -1,11 +1,7 @@
 import React, {useState} from 'react';
 import Star from './Star';
 
-type RatingPropsType = {
-    /*value: number*/
-}
-
-const UncontrolledRating = (props: RatingPropsType) => {
+const UncontrolledRating = () => {
 
     let [value, setValue] = useState(0)
 

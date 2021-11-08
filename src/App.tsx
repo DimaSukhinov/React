@@ -12,7 +12,6 @@ const App = () => {
     return (
         <div className="App">
             {/*<AppTitle/>
-            <Rating value={0}/>
             <Accordion titleValue={'Menu'} collapsed={false}/>
             <Accordion titleValue={'Menu 2'} collapsed={true}/>
             <Rating value={0}/>
@@ -23,7 +22,6 @@ const App = () => {
             <Rating value={5}/>*/}
             <OnOff />
             <UncontrolledAccordion titleValue={'Menu'} />
-            <UncontrolledAccordion titleValue={'Menu 2'} />
             <UncontrolledRating />
         </div>
     );
