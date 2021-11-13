@@ -12,9 +12,8 @@ const UncontrolledAccordion = (props: AccordionPropsType) => {
 
     return (
         <div>
-            <AccordionTitle title={props.titleValue}/>
-            <button onClick={ () => { setCollapsed(!collapsed) } }>Open</button>
-            {collapsed && <AccordionBody/>}             {/*props.collapsed === false*/}
+            <AccordionTitle title={props.titleValue} onClick={ () => { setCollapsed(!collapsed) } }/>
+            {collapsed && <AccordionBody/>}
         </div>
     );
 };
