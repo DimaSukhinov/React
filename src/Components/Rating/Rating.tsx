@@ -3,7 +3,7 @@ import Star from './Star';
 
 export type RatingValueType =  0 | 1 | 2 | 3 | 4 | 5
 
-type RatingPropsType = {
+export type RatingPropsType = {
     value: RatingValueType
     onClick: (value: RatingValueType) => void
 }

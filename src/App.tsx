@@ -18,10 +18,8 @@ const App = () => {
     return (
         <div className="App">
             {/*<AppTitle/>*/}
-
-            <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
-            <UncontrolledAccordion titleValue={'Menu'} onChange={ setCollapsedAccordion } /> {collapsedAccordion.toString()}
-
+            {/*<UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}*/}
+            {/*<UncontrolledAccordion titleValue={'Menu'} onChange={ setCollapsedAccordion } /> {collapsedAccordion.toString()}*/}
             {/*<OnOff on={switchOn} onChange={ (on) => {setSwitchOn(on)} }/>*/}
             {/*<Accordion titleValue={'Menu'} onClick={setCollapsedAccordion} value={collapsedAccordion}/>*/}
             {/*<UncontrolledRating />*/}
