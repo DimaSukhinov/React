@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 
 type OnOffPropsType = {
     onChange: (on: boolean) => void
+    defaultOn?: boolean
 }
 
 /*export const OnOff = (props: OnOffPropsType) => {
@@ -58,7 +59,7 @@ export const StatusOnOff = (props: OnOffPropsType) => {
 
 const UncontrolledOnOff = (props: OnOffPropsType) => {
 
-    let [on, setOn] = useState(false)
+    let [on, setOn] = useState(props.defaultOn ? props.defaultOn : false)
 
     const onStyle = {
         fontSize: '20px',
