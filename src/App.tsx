@@ -7,6 +7,8 @@ import UncontrolledOnOff from './Components/UncontrolledOnOff/UncontrolledOnOff'
 import UncontrolledAccordion from './Components/UncontrolledAccordion/UncontrolledAccordion';
 import UncontrolledRating from './Components/UncontrolledRating/UncontrolledRating';
 import OnOff from './Components/OnOff/OnOff';
+import TrackValueOfUncontrolledInput from './Components/UncontrolledInput/TrackValueOfUncontrolledInput';
+import GetValueOfUncontrolledInputByButtonPress from './Components/UncontrolledInput/GetValueOfUncontrolledInputByButtonPress';
 /*import { OnOff } from './Components/OnOff/OnOff';*/
 
 const App = () => {
@@ -24,6 +26,8 @@ const App = () => {
             {/*<Accordion titleValue={'Menu'} onClick={setCollapsedAccordion} value={collapsedAccordion}/>*/}
             {/*<UncontrolledRating />*/}
             {/*<Rating value={ratingValue} onClick={setRatingValue}/>*/}
+            <TrackValueOfUncontrolledInput />
+            <GetValueOfUncontrolledInputByButtonPress />
         </div>
     );
 };
