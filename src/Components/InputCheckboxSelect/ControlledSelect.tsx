@@ -16,7 +16,6 @@ const ControlledSelect = () => {
                 <option value={'3'}>Kiev</option>
                 <option value={'4'}>Moscow</option>
             </select>
-            {parentValue}
         </div>
     );
 };
