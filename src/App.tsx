@@ -9,6 +9,9 @@ import UncontrolledRating from './Components/UncontrolledRating/UncontrolledRati
 import OnOff from './Components/OnOff/OnOff';
 import TrackValueOfUncontrolledInput from './Components/UncontrolledInput/TrackValueOfUncontrolledInput';
 import GetValueOfUncontrolledInputByButtonPress from './Components/UncontrolledInput/GetValueOfUncontrolledInputByButtonPress';
+import ControlledInput from './Components/InputCheckboxSelect/ControlledInput';
+import ControlledCheckbox from './Components/InputCheckboxSelect/ControlledCheckbox';
+import ControlledSelect from './Components/InputCheckboxSelect/ControlledSelect';
 /*import { OnOff } from './Components/OnOff/OnOff';*/
 
 const App = () => {
@@ -26,8 +29,11 @@ const App = () => {
             {/*<Accordion titleValue={'Menu'} onClick={setCollapsedAccordion} value={collapsedAccordion}/>*/}
             {/*<UncontrolledRating />*/}
             {/*<Rating value={ratingValue} onClick={setRatingValue}/>*/}
-            <TrackValueOfUncontrolledInput />
-            <GetValueOfUncontrolledInputByButtonPress />
+            {/*<TrackValueOfUncontrolledInput />*/}
+            {/*<GetValueOfUncontrolledInputByButtonPress />*/}
+            <ControlledInput />
+            <ControlledCheckbox />
+            <ControlledSelect />
         </div>
     );
 };
