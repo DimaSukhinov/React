@@ -11,7 +11,7 @@ const ControlledInput = () => {
     return (
         <div>
             <input value={parentValue} onChange={onChange}/>
-            {parentValue}
+            <button onClick={ () => console.log(parentValue)}>save</button>
         </div>
     );
 };
