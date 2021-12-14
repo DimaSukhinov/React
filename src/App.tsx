@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {ReactMemo} from "./Components/React.memo demo/ReactMemo";
+import {UseMemo} from "./Components/Memo/UseMemo";
 
 const App = () => {
 
@@ -22,7 +22,7 @@ const App = () => {
                 onChange={setValue}
             />*/}
             {/*<UncontrolledAccordion titleValue={'menu'} />*/}
-            <ReactMemo />
+            <UseMemo />
         </div>
     );
 };
