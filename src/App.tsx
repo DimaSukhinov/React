@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {UseMemo} from "./Components/Memo/UseMemo";
+import {UseCallback} from "./Components/useMemo & useCallback/UseCallback";
 
 const App = () => {
 
@@ -22,7 +22,8 @@ const App = () => {
                 onChange={setValue}
             />*/}
             {/*<UncontrolledAccordion titleValue={'menu'} />*/}
-            <UseMemo />
+            {/*<UseMemo />*/}
+            <UseCallback />
         </div>
     );
 };
